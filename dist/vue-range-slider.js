@@ -181,7 +181,7 @@
         type: [String, Boolean],
         default: 'always',
         validator: function validator(val) {
-          return ['hover', 'always'].indexOf(val) > -1;
+          return ['hover', 'always', false].indexOf(val) > -1;
         }
       },
       // 组件方向
