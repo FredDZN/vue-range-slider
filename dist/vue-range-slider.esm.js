@@ -982,7 +982,7 @@ var Slider = {
 
           return _this3.min;
         } else if (v > _this3.max) {
-          _this3.printError("The value of the slider is ".concat(val, ", the maximum value is ").concat(_this3.max, ", the value of this slider can not be greater than the maximum value"));
+//           _this3.printError("The value of the slider is ".concat(val, ", the maximum value is ").concat(_this3.max, ", the value of this slider can not be greater than the maximum value"));
 
           return _this3.max;
         }
